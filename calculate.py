@@ -133,23 +133,23 @@ plt.scatter(x=min_variance_port['Volatility'], y=min_variance_port['Returns'], c
 plt.xlabel('Volatility (Std. Deviation)')
 plt.ylabel('Expected Returns')
 plt.title('Efficient Frontier: ' + date)
-plt.savefig('efficient-frontier_' + date + '.png')
+plt.savefig('efficient-frontier.png')
 plt.show()
 
 
-with open('etf-data_' + date + '.csv', "w", newline='') as f:
+
+with open('etf-data.csv', "w", newline='') as f:
     writer = csv.writer(f)
     writer.writerows(prices)   
 
-with open('covariance-matrix_' + date + '.csv', "w", newline='') as f:
+with open('covariance-matrix.csv', "w", newline='') as f:
     writer = csv.writer(f)
     writer.writerows(cov_daily) 
 
 file_list = [
-    'efficient-frontier_' + date + '.png',
-    'etf-data_' + date + '.csv',
-    'covariance-matrix_' + date + '.csv',
-    'index.md'
+    'efficient-frontier.png',
+    'etf-data.csv',
+    'covariance-matrix.csv'
 ]
 commit_message = 'Add graph'
 repo.index.add(file_list)

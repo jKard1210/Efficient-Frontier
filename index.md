@@ -1,35 +1,9 @@
-## Welcome to GitHub Pages
+Current Efficient Frontier of ETF Portfolios w/ over $1 Billion AUM:
+![Efficient Frontier](https://github.com/jKard1210/Efficient-Frontier/raw/master/efficient-frontier.png)
 
-You can use the [editor on GitHub](https://github.com/jKard1210/Efficient-Frontier/edit/master/index.md) to maintain and preview the content for your website in Markdown files.
+More Data:
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+[ETF Returns and Volatilities](https://github.com/jKard1210/Efficient-Frontier/raw/master/etf-data.csv)
 
-### Markdown
-
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
-
-```markdown
-Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-Current Efficient Frontier of ETF Portfolios:
-![Efficient Frontier]
- (https://github.com/jKard1210/Efficient-Frontier/raw/master/efficient-frontier_2019-06-04.png)
-
+[ETF Covariance Matrix](https://github.com/jKard1210/Efficient-Frontier/raw/master/covariance-matrix.csv)
 
