@@ -28,6 +28,7 @@ Syntax highlighted code block
 
 For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
 
+![alt text][logo]
 [logo]: https://github.com/jKard1210/Efficient-Frontier/raw/master/efficient-frontier_2019-06-04.png "Logo Title Text 2"
 
 
