@@ -28,6 +28,7 @@ Syntax highlighted code block
 
 For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
 
+Current Efficient Frontier of ETF Portfolios:
 ![Efficient Frontier]
  (https://github.com/jKard1210/Efficient-Frontier/raw/master/efficient-frontier_2019-06-04.png)
 
