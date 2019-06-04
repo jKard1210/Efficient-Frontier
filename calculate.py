@@ -4,9 +4,23 @@ import numpy as np
 import pandas
 import statistics
 import quandl
+import os
+import datetime
 import random
 import pandas as pd
 import matplotlib.pyplot as plt
+
+from git import Repo
+
+# rorepo is a Repo instance pointing to the git-python repository.
+# For all you know, the first argument to Repo is a path to the repository
+# you want to work with
+repo_path = os.getenv('GIT_REPO_PATH')
+repo = Repo(repo_path)
+
+
+now = datetime.date.today()
+date = str(now)
 
 
 outputFile = []
@@ -23,30 +37,24 @@ returns = []
 prices = []
 tickers = []
 i = 0
+etfs=etfs[0:10]
 for etf in etfs:
     print(i)
     i += 1
-    temp = []
     etf = etf.replace(u'\xa0', u'')
     etf = etf.replace(u'\ufeff', u'')
+    tickers.append(etf)
     company = yf.Ticker(etf)
-    try:
-        hist = company.history(period="2y")
-        closes = hist['Close'].pct_change().tolist()
+    hist = company.history(period="2y")
+    closes = hist['Close'].pct_change().tolist()
+    closes = closes[1:]
+    if(len(closes) < 503):
         closes = closes[1:]
-        if(len(closes) < 503):
-            closes = closes[1:]
-            for k in range(0, 503-len(closes)):
-                closes.append(0)
-        print(len(closes))
-        prices.append(closes)
+        for k in range(0, 503-len(closes)):
+            closes.append(0)
+    print(len(closes))
+    prices.append(closes)
 
-
-    except:
-        temp.append(0)
-        temp.append(0)
-        temp.append(0)
-        temp.append(0)
 
 returns_daily = np.array([np.array(xi) for xi in prices])
 returns_annual = []
@@ -66,6 +74,10 @@ cov_daily = np.cov(returns_daily)
 print(cov_daily)
 cov_annual = cov_daily * 250
 
+variances = []
+for j in range(0, len(cov_daily)):
+    variances.append(cov_annual[j][j])
+prices=np.transpose([np.append("Ticker", tickers), np.append("2-Year Average Annual Returns", returns_annual), np.append("Variance of Daily Returns" ,variances)])
 port_returns = []
 port_volatility = []
 stock_weights = []
@@ -120,15 +132,34 @@ plt.scatter(x=sharpe_portfolio['Volatility'], y=sharpe_portfolio['Returns'], c='
 plt.scatter(x=min_variance_port['Volatility'], y=min_variance_port['Returns'], c='blue', marker='D', s=200 )
 plt.xlabel('Volatility (Std. Deviation)')
 plt.ylabel('Expected Returns')
-plt.title('Efficient Frontier')
+plt.title('Efficient Frontier: ' + date)
+plt.savefig('efficient-frontier_' + date + '.png')
 plt.show()
+
+
+with open('etf-data_' + date + '.csv', "w", newline='') as f:
+    writer = csv.writer(f)
+    writer.writerows(prices)   
+
+with open('covariance-matrix_' + date + '.csv', "w", newline='') as f:
+    writer = csv.writer(f)
+    writer.writerows(cov_daily) 
+
+file_list = [
+    'efficient-frontier_' + date + '.png',
+    'etf-data_' + date + '.csv',
+    'covariance-matrix_' + date + '.csv',
+    'index.md'
+]
+commit_message = 'Add graph'
+repo.index.add(file_list)
+repo.index.commit(commit_message)
+origin = repo.remote('origin')
+origin.push()
 
 print(min_variance_port.T)
 print(sharpe_portfolio.T)
-
-with open("results.csv", "w", newline='') as f:
-    writer = csv.writer(f)
-    writer.writerows(prices)    
+ 
 
 
 
