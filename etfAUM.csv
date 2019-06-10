@@ -1,0 +1,100 @@
+SPY,SPDR S&P 500 ETF,252762022,Equity,NA
+IVV,iShares Core S&P 500 ETF,173144793.4,Equity,NA
+VTI,Vanguard Total Stock Market ETF,110635229.7,Equity,NA
+VOO,Vanguard S&P 500 ETF,108520928.9,Equity,NA
+VEA,Vanguard FTSE Developed Markets ETF,70234168.84,Equity,Developed
+QQQ,Invesco QQQ,67226332.62,Equity,NA
+IEFA,iShares Core MSCI EAFE ETF,62821507.28,Equity,Developed
+AGG,iShares Core U.S. Aggregate Bond ETF,62404582.21,Fixed Income,NA
+VWO,Vanguard FTSE Emerging Markets ETF,62015455.64,Equity,Emerging
+EFA,iShares MSCI EAFE ETF,60930775.04,Equity,Developed
+IEMG,iShares Core MSCI Emerging Markets ETF,56798663.14,Equity,Emerging
+IJH,iShares Core S&P Mid-Cap ETF,48209810.77,Equity,NA
+VTV,Vanguard Value ETF,46808161.8,Equity,NA
+IJR,iShares Core S&P Small-Cap ETF,42516247.51,Equity,NA
+IWF,iShares Russell 1000 Growth ETF,42253513.96,Equity,NA
+IWM,iShares Russell 2000 ETF,40684941.25,Equity,NA
+BND,Vanguard Total Bond Market ETF,40322880.09,Fixed Income,
+VUG,Vanguard Growth ETF,38184169.75,Equity,NA
+IWD,iShares Russell 1000 Value ETF,37368592.62,Equity,NA
+VIG,Vanguard Dividend Appreciation ETF,33661707.9,Equity,NA
+VNQ,Vanguard Real Estate Index Fund,33465031.42,Equity,NA
+GLD,SPDR Gold Trust,32331063.54,Commodity,
+LQD,iShares iBoxx $ Investment Grade Corporate Bond ETF,31697940.24,Fixed Income,
+EEM,iShares MSCI Emerging Markets ETF,31064997.41,Equity,Emerging
+USMV,iShares Edge MSCI Min Vol USA ETF,27062080.13,Equity,NA
+VO,Vanguard Mid-Cap Index ETF,25076642.11,Equity,NA
+VCIT,Vanguard Intermediate-Term Corporate Bond ETF,24350853.33,Fixed Income,
+VB,Vanguard Small Cap ETF,24239369.4,Equity,NA
+VCSH,Vanguard Short-Term Corporate Bond ETF,23612613.73,Fixed Income,
+VYM,Vanguard High Dividend Yield ETF,23484076.77,Equity,NA
+XLF,Financial Select Sector SPDR Fund,23287378.04,Equity,NA
+VEU,Vanguard FTSE All-World ex-US ETF,22906589.3,Equity,Ex-US
+BSV,Vanguard Short-Term Bond ETF,22541144.53,Fixed Income,
+IVW,iShares S&P 500 Growth ETF,22381606.1,Equity,NA
+SHY,iShares 1-3 Year Treasury Bond ETF,21093645.8,Fixed Income,
+SHV,iShares Short Treasury Bond ETF,20867941.22,Fixed Income,
+TIP,iShares TIPS Bond ETF,20388898.05,Fixed Income,
+DIA,SPDR Dow Jones Industrial Average ETF,20131670.01,Equity,NA
+XLK,Technology Select Sector SPDR Fund,20084407.07,Equity,NA
+ITOT,iShares Core S&P Total U.S. Stock Market ETF,19767691.89,Equity,NA
+IWB,iShares Russell 1000 ETF,19333266.73,Equity,NA
+VGT,Vanguard Information Technology ETF,19106602.74,Equity,NA
+IWR,iShares Russell Midcap ETF,18702777.37,Equity,NA
+MDY,SPDR S&P MidCap 400 ETF,18667923.99,Equity,NA
+SDY,SPDR S&P Dividend ETF,18232428.97,Equity,NA
+SCHF,Schwab International Equity ETF,17451211.07,Equity,Global
+XLV,Health Care Select Sector SPDR Fund,17426442.84,Equity,NA
+BNDX,Vanguard Total International Bond ETF,17378376.96,Fixed Income,
+DVY,iShares Select Dividend ETF,16915725.14,Equity,NA
+MBB,iShares MBS Bond ETF,16423709.38,Fixed Income,
+IEF,iShares 7-10 Year Treasury Bond ETF,16214229.61,Fixed Income,
+SCHX,Schwab U.S. Large-Cap ETF,16165889.33,Equity,NA
+RSP,Invesco S&P 500¨ Equal Weight ETF,15486477.36,Equity,NA
+PFF,iShares Preferred and Income Securities ETF,14986681.13,Equity,NA
+HYG,iShares iBoxx $ High Yield Corporate Bond ETF,14919849.29,Fixed Income,
+IVE,iShares S&P 500 Value ETF,14847749.78,Equity,NA
+EMB,iShares J.P. Morgan USD Emerging Markets Bond ETF,14527367.73,Fixed Income,
+SCHB,Schwab U.S. Broad Market ETF,14258483.31,Equity,NA
+IXUS,iShares Core MSCI Total International Stock ETF,14146718.79,Equity,Global
+VV,Vanguard Large Cap ETF,13796372.96,Equity,NA
+TLT,iShares 20+ Year Treasury Bond ETF,13725780.07,Fixed Income,
+VGK,Vanguard FTSE Europe ETF,13415673.21,Equity,Europe
+VBR,Vanguard Small Cap Value ETF,13005626.05,Equity,NA
+XLY,Consumer Discretionary Select Sector SPDR Fund,12885764.92,Equity,NA
+MUB,iShares National AMT-Free Muni Bond ETF,12866205.97,Fixed Income,
+VXUS,Vanguard Total International Stock ETF,12244137.97,Equity,Global
+VT,Vanguard Total World Stock ETF,12053615.16,Equity,Global
+EWJ,iShares MSCI Japan ETF,12037328.84,Equity,Asia
+BIV,Vanguard Intermediate-Term Bond ETF,12016333.62,Fixed Income,
+IAU,iShares Gold Trust,12011793.3,Commodity,
+MINT,PIMCO Enhanced Short Maturity Strategy Fund,11806671.21,Equity,NA
+XLE,Energy Select Sector SPDR Fund,11357839.84,Equity,NA
+IGSB,iShares Short-Term Corporate Bond ETF,11199778.38,Fixed Income,
+SPLV,Invesco S&P 500¨ Low Volatility ETF,11060674.15,Equity,NA
+EFAV,iShares Edge MSCI Min Vol EAFE ETF,11018585.79,Equity,Developed
+GOVT,iShares U.S. Treasury Bond ETF,10975568.54,Fixed Income,
+XLP,Consumer Staples Select Sector SPDR Fund,10771509.24,Equity,NA
+QUAL,iShares Edge MSCI USA Quality Factor ETF,10595933.74,Equity,NA
+IWP,iShares Russell Midcap Growth ETF,10381532.36,Equity,NA
+IWS,iShares Russell Midcap Value ETF,10376025.96,Equity,NA
+ACWI,iShares MSCI ACWI ETF,10279363.57,Equity,Global
+FLOT,iShares Floating Rate Bond ETF,10182378.19,Fixed Income,Global
+XLI,Industrial Select Sector SPDR Fund,9803508.41,Equity,NA
+GDX,VanEck Vectors Gold Miners ETF,9732022.19,Equity,Global
+SCZ,iShares MSCI EAFE Small-Cap ETF,9245176.17,Equity,Developed
+SCHD,Schwab US Dividend Equity ETF,9185804.76,Equity,NA
+IWV,iShares Russell 3000 ETF,9053818.36,Equity,NA
+XLU,Utilities Select Sector SPDR Fund,9046879.16,Equity,NA
+VOE,Vanguard Mid-Cap Value ETF,8921926.93,Equity,NA
+VHT,Vanguard Healthcare ETF,8919274.05,Equity,NA
+VMBS,Vanguard Mortgage-Backed Securities ETF,8830468.32,Equity,NA
+MTUM,iShares Edge MSCI USA Momentum Factor ETF,8825330.82,Equity,NA
+IWO,iShares Russell 2000 Growth ETF,8750682.37,Equity,NA
+EWZ,iShares MSCI Brazil ETF,8644048.89,Equity,SA
+AMLP,Alerian MLP ETF,8637448.79,Equity,NA
+VBK,Vanguard Small Cap Growth ETF,8609810.79,Equity,NA
+BIL,SPDR Barclays 1-3 Month T-Bill ETF,8595417.94,Fixed Income,
+IWN,iShares Russell 2000 Value ETF,8543084.99,Equity,NA
+FDN,First Trust Dow Jones Internet Index,8463003.61,Equity,NA
+SCHA,Schwab U.S. Small-Cap ETF,7997839.14,Equity,NA

@@ -1,4 +1,4 @@
-Current Efficient Frontier of ETF Portfolios w/ over $1 Billion AUM:
+Efficient Frontier of ETF Portfolios with over $1 Billion AUM:
 ![Efficient Frontier](https://github.com/jKard1210/Efficient-Frontier/raw/master/efficient-frontier.png)
 
 More Data:
